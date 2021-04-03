@@ -1,12 +1,15 @@
 {
   "name": "apachish/crawler",
   "description": "crawler in site",
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "shahriar pahlevansadegh",
       "email": "info@apachish.ir"
     }
   ],
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "Apachish\\Crawler\\": "src/"
