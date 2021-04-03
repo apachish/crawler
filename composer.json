@@ -1,0 +1,25 @@
+{
+  "name": "dadsun/crawler",
+  "description": "crawler in site",
+  "authors": [
+    {
+      "name": "shahriar pahlevansadegh",
+      "email": "shpahlevan@dadsun.ir"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dadsun\\Crawler\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dadsun\\Crawler\\CrawlerServiceProvider"
+      ]
+    }
+  }
+}
