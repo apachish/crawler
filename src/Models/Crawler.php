@@ -5,7 +5,7 @@ namespace Apachish\Crawler\Models;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\CurlHandler;
 use GuzzleHttp\HandlerStack;
-use GuzzleTor\Middleware;
+// use GuzzleTor\Middleware;
 use Illuminate\Database\Eloquent\Model;
 
 class Crawler extends Model
