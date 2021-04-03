@@ -1,10 +1,9 @@
 <?php
 
-namespace Dadsun\Crawler\App\Http\Controllers;
+namespace Apachish\Crawler\App\Http\Controllers;
 
 
-use App\Http\Controllers\BaseController;
 
-class Controller extends BaseController
+class Controller extends Controller
 {
 }

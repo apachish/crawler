@@ -1,6 +1,6 @@
 <?php
 
-namespace Dadsun\Crawler;
+namespace Apachish\Crawler;
 
 
 use Illuminate\Support\ServiceProvider;

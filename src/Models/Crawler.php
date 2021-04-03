@@ -1,6 +1,6 @@
 <?php
 
-namespace Dadsun\Crawler\Models;
+namespace Apachish\Crawler\Models;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\CurlHandler;

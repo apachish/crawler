@@ -1,15 +1,15 @@
 {
-  "name": "dadsun/crawler",
+  "name": "apachish/crawler",
   "description": "crawler in site",
   "authors": [
     {
       "name": "shahriar pahlevansadegh",
-      "email": "shpahlevan@dadsun.ir"
+      "email": "info@apachish.ir"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Dadsun\\Crawler\\": "src/"
+      "Apachish\\Crawler\\": "src/"
     }
   },
   "require": {
@@ -18,7 +18,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Dadsun\\Crawler\\CrawlerServiceProvider"
+        "Apachish\\Crawler\\CrawlerServiceProvider"
       ]
     }
   }

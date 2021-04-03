@@ -1,8 +1,8 @@
 <?php
 
-namespace Dadsun\Crawler\Models;
+namespace Apachish\Crawler\Models;
 
-use Dadsun\Crawler\Models\Crawler;
+use Apachish\Crawler\Models\Crawler;
 use Illuminate\Database\Eloquent\Model;
 use DOMDocument;
 use DOMXPath;
