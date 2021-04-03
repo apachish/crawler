@@ -176,7 +176,7 @@ class Crawler extends Model
 
             $stack = new HandlerStack();
             $stack->setHandler(new CurlHandler());
-            $stack->push(Middleware::tor());
+            // $stack->push(Middleware::tor());
             $client = new Client([
                 'verify' => false, // otherwise HTTPS requests will fail.
                 'headers' => self::$heder,
