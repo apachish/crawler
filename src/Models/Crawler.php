@@ -184,7 +184,6 @@ class Crawler extends Model
 //            'proxy' => self::$proxy, // by default, Charles runs on localhost port 8888
             ]);
             $request = $client->get($address);
-            logger($request->getStatusCode());
             $response = $request->getBody();
             return $response;
     }
